@@ -1,7 +1,33 @@
-#title {
-    max-width: 1000px;
+/*------ general ------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cutewallpaper.org/22/01010101-wallpapers/binary-code-wallpapers-top-free-binary-code-backgrounds-wallpaperaccess.jpg);
+}
+
+/*------ password ------*/
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60% , -50%);
+    height: 200px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+h1 ,#title {
+    text-align: center;
+    text-shadow: 0 0 6px #ff0000;
+    color: #fff;
+}
+h1 {
     padding: 20px;
-    margin: auto;
-    background-color: lightgreen;
-    color: red;
+}
+#title {
+    padding: 10px;
 }

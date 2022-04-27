@@ -13,5 +13,5 @@ console.log(colorepreferito);
 const somma = nome + cognome + colorepreferito + 21
 console.log(somma);
 // aggiungi alla pagina la password creata
-document.getElementById("title").innerHTML = `${title}, ecco la tua password: ${somma}`
+document.getElementById("title").innerHTML = `${title}Ecco la tua password: ${somma}`
 // risultato atteso nomecognomecolorepreferito21
